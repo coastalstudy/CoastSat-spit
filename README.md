@@ -6,5 +6,9 @@ Since its appearance, the [`CoastSat`](https://github.com/kvos/CoastSat) toolbox
 ## Site application
 This toolbox has been applied to the case of Tien Chau inlet, Vietnam. The initialisation steps are similar to that of `CoastSat`, but Python functions have been added to calculate the morphology of the coastline. Specifically, the length and the orientation of the sand spit are calculated based on the classified images.
 
+The software tool can be run first from `example_Tien_Chau.ipynb`. Then, after the shorelines are delinated and their coordinates written to `TienChau-analysis/*_mod.xyz`, we can run `calc_geom.ipynb` to extract the sand-spit length and orientation (see the figure below).
+
+![Tien Chau spit](doc/Tien-Chau-sand-spit.PNG)
+
 ## Reference
 Tung T.T., Chien N.Q., Tinh D.X. (2021) Sand-Spit Evolution and Inlet Dynamics Derived from Satellite Images: A Case Study for Tien Chau Inlet, Vietnam. Proceedings 3rd Int Conf Sustainability in Civil Engineering. Hanoi, pp. 287-293, 2021, https://doi.org/10.1007/978-981-16-0053-1_36.
